@@ -1,0 +1,495 @@
+Unity Editor version:    2021.3.9f1 (ad3870b89536)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.3.1 (Build 21E258)
+Darwin version:          21.4.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/JUVAZQUEZQUIJADA/Desktop/unity stuffs/unity essentials
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53224
+Successfully changed project path to: /Users/JUVAZQUEZQUIJADA/Desktop/unity stuffs/unity essentials
+Could not lock editor preferences. Preferences updates for this instance of Unity will not be saved./Users/JUVAZQUEZQUIJADA/Desktop/unity stuffs/unity essentials
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 74.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.9f1 (ad3870b89536)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/JUVAZQUEZQUIJADA/Desktop/unity stuffs/unity essentials/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56919
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.9f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.9f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.000528 seconds.
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 71.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.396 seconds
+Domain Reload Profiling:
+	ReloadAssembly (396ms)
+		BeginReloadAssembly (41ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (292ms)
+			LoadAssemblies (40ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (72ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (176ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (72ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (50ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001430 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/JUVAZQUEZQUIJADA/Desktop/unity stuffs/unity essentials/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/JUVAZQUEZQUIJADA/Desktop/unity stuffs/unity essentials/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.695 seconds
+Domain Reload Profiling:
+	ReloadAssembly (695ms)
+		BeginReloadAssembly (154ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (117ms)
+		EndReloadAssembly (476ms)
+			LoadAssemblies (32ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (169ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (213ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (133ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.9f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3380 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (94.4 KB). Loaded Objects now: 3839.
+Memory consumption went from 231.0 MB to 230.9 MB.
+Total: 2.126167 ms (FindLiveObjects: 0.096583 ms CreateObjectMapping: 0.038959 ms MarkObjects: 1.929583 ms  DeleteObjects: 0.060417 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 30050.970810 seconds.
+  path: Assets/Materials/Materials/Bouncy.physicMaterial
+  artifactKey: Guid(444bef3026e34477d919341dc07c213a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Materials/Bouncy.physicMaterial using Guid(444bef3026e34477d919341dc07c213a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eece0680b705b1d2a3b83360719533d') in 0.433952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 292.226039 seconds.
+  path: Assets/Materials/panoramic-view-drone-above-empty-parking-white-marking-lines-asphalt-numbered-places-cars-background-floor-lot-124716345.mat
+  artifactKey: Guid(dba5f90c19f52440b99348805fbea9a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/panoramic-view-drone-above-empty-parking-white-marking-lines-asphalt-numbered-places-cars-background-floor-lot-124716345.mat using Guid(dba5f90c19f52440b99348805fbea9a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e801882ce822a2e4d4d03f1929c57c38') in 0.125461 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001301 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x283287000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/JUVAZQUEZQUIJADA/Desktop/unity stuffs/unity essentials/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/JUVAZQUEZQUIJADA/Desktop/unity stuffs/unity essentials/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.619 seconds
+Domain Reload Profiling:
+	ReloadAssembly (620ms)
+		BeginReloadAssembly (88ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (470ms)
+			LoadAssemblies (36ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (175ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (193ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (39ms)
+				ProcessInitializeOnLoadAttributes (126ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (71.3 KB). Loaded Objects now: 3884.
+Memory consumption went from 244.2 MB to 244.1 MB.
+Total: 2.218875 ms (FindLiveObjects: 0.134958 ms CreateObjectMapping: 0.043000 ms MarkObjects: 1.978583 ms  DeleteObjects: 0.061750 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 459.802274 seconds.
+  path: Assets/Sport Car - 3D model/Prefabs/Materials/Ligths.mat
+  artifactKey: Guid(42abbc339a1c041e7a5f6c54391c2ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sport Car - 3D model/Prefabs/Materials/Ligths.mat using Guid(42abbc339a1c041e7a5f6c54391c2ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76d66e26bb75387a6959f25ff881fa83') in 0.046685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Sport Car - 3D model/Prefabs/Materials/LeftIndicator.mat
+  artifactKey: Guid(ccbe62367e16f4c54aa6be1a28208c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sport Car - 3D model/Prefabs/Materials/LeftIndicator.mat using Guid(ccbe62367e16f4c54aa6be1a28208c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c85ff59709a3eb34e525985a145a505') in 0.006561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Sport Car - 3D model/Materials/Lights/BrakeLights.mat
+  artifactKey: Guid(3ff81be07d516b84498d830e113ce20d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sport Car - 3D model/Materials/Lights/BrakeLights.mat using Guid(3ff81be07d516b84498d830e113ce20d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '226cec353a4c27ecebeaaa59dd1aa51f') in 0.009012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Sport Car - 3D model/Materials/Lights/LigthsParts.mat
+  artifactKey: Guid(47f34e06fb8c7984db37f033dcfda029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sport Car - 3D model/Materials/Lights/LigthsParts.mat using Guid(47f34e06fb8c7984db37f033dcfda029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f304ffb62152903b160cc27f7cdefb1') in 0.007459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Sport Car - 3D model/Materials/Wheel_Mats/Disks.mat
+  artifactKey: Guid(d5fb4d8c3b2addf44a566f06452f3df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sport Car - 3D model/Materials/Wheel_Mats/Disks.mat using Guid(d5fb4d8c3b2addf44a566f06452f3df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc0b4623a4762d9e59e841c5e6361780') in 0.006516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Sport Car - 3D model/Materials/Glass1.mat
+  artifactKey: Guid(241705424653d264487f695eba711689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sport Car - 3D model/Materials/Glass1.mat using Guid(241705424653d264487f695eba711689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8dd6dd698db05d8d528d936f733c470') in 0.356000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Sport Car - 3D model/Prefabs/Materials/BrakeLights.mat
+  artifactKey: Guid(ccd325cab209f48d1adb56cb867b76c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sport Car - 3D model/Prefabs/Materials/BrakeLights.mat using Guid(ccd325cab209f48d1adb56cb867b76c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e6dd8e5f7350c11dba0bc47aaee0214') in 0.005240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sport Car - 3D model/Prefabs/Materials/FrontLights.mat
+  artifactKey: Guid(168c896378d9c42b9bb5b9636bc607ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sport Car - 3D model/Prefabs/Materials/FrontLights.mat using Guid(168c896378d9c42b9bb5b9636bc607ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9540ebc4174211710e2418519b36bfc1') in 0.005482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Sport Car - 3D model/Materials/Lights/LeftIndicator.mat
+  artifactKey: Guid(ca15278988a972e498139a4b1b6b8ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sport Car - 3D model/Materials/Lights/LeftIndicator.mat using Guid(ca15278988a972e498139a4b1b6b8ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c9ef9f32e4788c548f15a284dbf5c62') in 0.007297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 88.829348 seconds.
+  path: Assets/Sport Car - 3D model/Materials
+  artifactKey: Guid(6a534b99236bafc4e89d90888a04cf62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sport Car - 3D model/Materials using Guid(6a534b99236bafc4e89d90888a04cf62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19a38f161b8c53d3fa108cfb5c19758a') in 0.000889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.843513 seconds.
+  path: Assets/Sport Car - 3D model
+  artifactKey: Guid(b9c284003564049229b5144e337a369a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sport Car - 3D model using Guid(b9c284003564049229b5144e337a369a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ea0bac6f610e95bbbeada6debc887dd') in 0.001304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.833315 seconds.
+  path: Assets/Sport Car - 3D model/Materials/Parts.mat
+  artifactKey: Guid(9c5d686dc1065fa4fb07bb91a28baa25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sport Car - 3D model/Materials/Parts.mat using Guid(9c5d686dc1065fa4fb07bb91a28baa25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f5e324b70da91efa8b48359d87c8d9e') in 0.030100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.743777 seconds.
+  path: Assets/Sport Car - 3D model/Scripts
+  artifactKey: Guid(9b984b4595ecabf4b928c0b3b234d632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sport Car - 3D model/Scripts using Guid(9b984b4595ecabf4b928c0b3b234d632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7f8326d41e93dc1d8502f1d008878df') in 0.001005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.043361 seconds.
+  path: Assets/Sport Car - 3D model/Flares
+  artifactKey: Guid(6a8b8d18c1d4968408c73257ff979e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sport Car - 3D model/Flares using Guid(6a8b8d18c1d4968408c73257ff979e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb80ec05ba93cfa03cc293d202610a69') in 0.001243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.062283 seconds.
+  path: Assets/Sport Car - 3D model/Flares/BrakeFlare.flare
+  artifactKey: Guid(b670c00bd68be014cb5779cb1aa13b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sport Car - 3D model/Flares/BrakeFlare.flare using Guid(b670c00bd68be014cb5779cb1aa13b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e7720bd349ed3301f2049a7d6b5161e') in 0.051203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Sport Car - 3D model/Flares/TailFlare.flare
+  artifactKey: Guid(d45117cf39f910b40b9b912440e5f10c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sport Car - 3D model/Flares/TailFlare.flare using Guid(d45117cf39f910b40b9b912440e5f10c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da1e75781ab7e3f93588607436f4df8b') in 0.001617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.317913 seconds.
+  path: Assets/Sport Car - 3D model/Prefabs/fbx.fbx
+  artifactKey: Guid(9a91c5e887f917e419bfe9f63efe6056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sport Car - 3D model/Prefabs/fbx.fbx using Guid(9a91c5e887f917e419bfe9f63efe6056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a33eb1840ebe7a7c6fb9e9ce8c832d0a') in 0.176084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.958492 seconds.
+  path: Assets/Sport Car - 3D model/Prefabs/SportCar.prefab
+  artifactKey: Guid(f8b49f9d229541d43b30476c740c2477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sport Car - 3D model/Prefabs/SportCar.prefab using Guid(f8b49f9d229541d43b30476c740c2477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a78eb8805546d0e58a48b52085c86e47') in 0.336052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.754682 seconds.
+  path: Assets/Sport Car - 3D model/Materials/Textures
+  artifactKey: Guid(6b16789148414854e97a9fa1b8b2353b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sport Car - 3D model/Materials/Textures using Guid(6b16789148414854e97a9fa1b8b2353b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdd581b7814aa9bec088c54d96f2231d') in 0.001207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.073571 seconds.
+  path: Assets/Sport Car - 3D model/Materials/Textures/LicensePlate.png
+  artifactKey: Guid(6bba49cadfb557244bc838c65f81e3c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sport Car - 3D model/Materials/Textures/LicensePlate.png using Guid(6bba49cadfb557244bc838c65f81e3c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cee73471313f9e2a16ccfdd09242ff41') in 0.381922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Sport Car - 3D model/Materials/Textures/Parts.png
+  artifactKey: Guid(9a2fb23107c534e42bdbd4e795ae6e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sport Car - 3D model/Materials/Textures/Parts.png using Guid(9a2fb23107c534e42bdbd4e795ae6e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '441ba167386cc9b1a9130b44255e4d8e') in 0.008669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.706246 seconds.
+  path: Assets/Sport Car - 3D model/Materials/Materials/Tire.mat
+  artifactKey: Guid(8fd19d1d9b3cd441fa8330c4363c8437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sport Car - 3D model/Materials/Materials/Tire.mat using Guid(8fd19d1d9b3cd441fa8330c4363c8437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da542cb4cb5bf4a9e46fe9000d524fe0') in 0.011045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.799015 seconds.
+  path: Assets/Sport Car - 3D model/Prefabs
+  artifactKey: Guid(5322d1cdc3c11e4499d0a23bc2bb68f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sport Car - 3D model/Prefabs using Guid(5322d1cdc3c11e4499d0a23bc2bb68f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e10af1774271dc756d1dc9662d449487') in 0.001231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.379629 seconds.
+  path: Assets/Sport Car - 3D model/Prefabs/Materials
+  artifactKey: Guid(ff810cb95ba5f4859a87ef5adc06f0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sport Car - 3D model/Prefabs/Materials using Guid(ff810cb95ba5f4859a87ef5adc06f0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85c9fe860bb0cc566b6a812cfd60390b') in 0.001499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.043085 seconds.
+  path: Assets/Sport Car - 3D model/Prefabs/Materials/None__Parts_png.mat
+  artifactKey: Guid(ec797ae81e0a146e4ad814b39f2265e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sport Car - 3D model/Prefabs/Materials/None__Parts_png.mat using Guid(ec797ae81e0a146e4ad814b39f2265e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e348dc67a714c15bd3959115824fd36d') in 0.008460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Sport Car - 3D model/Prefabs/Materials/ReverseLights.mat
+  artifactKey: Guid(1fa6015b6b6a041dba48094cf3a29e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sport Car - 3D model/Prefabs/Materials/ReverseLights.mat using Guid(1fa6015b6b6a041dba48094cf3a29e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20a2bdaaf99452b89015bc42492509e9') in 0.009605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Sport Car - 3D model/Prefabs/Materials/RightIndicator.mat
+  artifactKey: Guid(d708a2d14d9154423b1ef3ce39e61a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sport Car - 3D model/Prefabs/Materials/RightIndicator.mat using Guid(d708a2d14d9154423b1ef3ce39e61a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fba5f15c2c0d5ff54386906e9c6eb945') in 0.008350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 440.850442 seconds.
+  path: Assets/Sport Car - 3D model/Materials/Wheel_Mats/AmbientOcclusionMap.png
+  artifactKey: Guid(73eb8fab782f9f340b74493b735b6c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sport Car - 3D model/Materials/Wheel_Mats/AmbientOcclusionMap.png using Guid(73eb8fab782f9f340b74493b735b6c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55668d078d01b64476f899a748c82067') in 0.015572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Sport Car - 3D model/Materials/Wheel_Mats/NormalMap.png
+  artifactKey: Guid(d4f120d3fed61a64fa269e1fdc785ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sport Car - 3D model/Materials/Wheel_Mats/NormalMap.png using Guid(d4f120d3fed61a64fa269e1fdc785ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e45cda35f77932c98c90ea6d323cb20f') in 0.040358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Sport Car - 3D model/Materials/Wheel_Mats/SpecularMap.png
+  artifactKey: Guid(0aecbdf072f2f114ba4c7aeab1b3257f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sport Car - 3D model/Materials/Wheel_Mats/SpecularMap.png using Guid(0aecbdf072f2f114ba4c7aeab1b3257f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4a6a0d3e365e8fa40d15dd03133466d') in 0.004670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 682.119494 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Meshes/ARCADE - FREE Racing Car.fbx
+  artifactKey: Guid(9ec6a8fc6925acb4abc5500eeecb8270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Meshes/ARCADE - FREE Racing Car.fbx using Guid(9ec6a8fc6925acb4abc5500eeecb8270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90c109e2055df14fe9587889109a1d76') in 0.053190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.420273 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs (Meshes Only)/Free Racing Car.prefab
+  artifactKey: Guid(c4cad50aa03bbca42938fe318344950b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs (Meshes Only)/Free Racing Car.prefab using Guid(c4cad50aa03bbca42938fe318344950b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf8d9bf039b3225a8a7873a320914a54') in 0.272867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs (With Colliders)/Free Racing Car Purple Variant.prefab
+  artifactKey: Guid(62010132604e8c94d96b4cb4fe6d3394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs (With Colliders)/Free Racing Car Purple Variant.prefab using Guid(62010132604e8c94d96b4cb4fe6d3394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc194d8440d7992d7043229f6d57d788') in 0.007729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs (With Colliders)/Free Racing Car Gray Variant.prefab
+  artifactKey: Guid(4d1624804e8167f479ab63c5302ff1d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs (With Colliders)/Free Racing Car Gray Variant.prefab using Guid(4d1624804e8167f479ab63c5302ff1d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '682c95220d64aab617f5dfe35f87f4d4') in 0.009181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs (Meshes Only)/Free Racing Car Blue Variant.prefab
+  artifactKey: Guid(a9cbfe7195f75844aa7ec0619ca7616f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs (Meshes Only)/Free Racing Car Blue Variant.prefab using Guid(a9cbfe7195f75844aa7ec0619ca7616f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31bc490ef6922ac066ac93c4fae7336a') in 0.011277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Sport Car - 3D model/Prefabs/SportCar.prefab
+  artifactKey: Guid(f8b49f9d229541d43b30476c740c2477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sport Car - 3D model/Prefabs/SportCar.prefab using Guid(f8b49f9d229541d43b30476c740c2477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efc16f19396d7212c1dc4ddd5c82b92f') in 0.028029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Prefabs (Meshes Only)/Free Racing Car Red Variant.prefab
+  artifactKey: Guid(a82f70a5f0178974093910fc6fd84c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Prefabs (Meshes Only)/Free Racing Car Red Variant.prefab using Guid(a82f70a5f0178974093910fc6fd84c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '968f8a47196b510e72f06dec46bd7559') in 0.009747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 211.638993 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Materials/AFRC_Emission.mat
+  artifactKey: Guid(ab035d7682921704a9015ac353311d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Materials/AFRC_Emission.mat using Guid(ab035d7682921704a9015ac353311d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a172aca1dde2187598197faaeff02b4e') in 0.014714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Materials/Color Variations/AFRC_Mat_Col4.mat
+  artifactKey: Guid(104696f8b5f23d24586d858b68916bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Materials/Color Variations/AFRC_Mat_Col4.mat using Guid(104696f8b5f23d24586d858b68916bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e94e44c6b99f61d1b6eccc2adc5530cf') in 0.012573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Materials/Ikea_logo.svg.mat
+  artifactKey: Guid(7e01550a079b24e59903a40222c8d6f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Ikea_logo.svg.mat using Guid(7e01550a079b24e59903a40222c8d6f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da5f4d662dfd179d5844f91548c5b164') in 0.009127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Sport Car - 3D model/Materials/Lights/BrakeLights.mat
+  artifactKey: Guid(3ff81be07d516b84498d830e113ce20d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sport Car - 3D model/Materials/Lights/BrakeLights.mat using Guid(3ff81be07d516b84498d830e113ce20d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beee141982e09e0f6aa6a82f6486dce1') in 0.006179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/ARCADE - FREE Racing Car/Skybox/Day/Day Skybox.mat
+  artifactKey: Guid(2fdc1726342f4a749a190a0a8677a1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARCADE - FREE Racing Car/Skybox/Day/Day Skybox.mat using Guid(2fdc1726342f4a749a190a0a8677a1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a113c6e178baeed76a3b1380e768a6b5') in 0.248404 seconds 
